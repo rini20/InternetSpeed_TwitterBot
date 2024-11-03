@@ -15,17 +15,20 @@ Requirements:
 
 Installation:
 
-1. Clone this repository:
+- Clone this repository:
     
 
-    git clone https://github.com/rini20/InternetSpeed_TwitterBot.git
-    cd internet-speed-twitterbot
+      git clone https://github.com/rini20/InternetSpeed_TwitterBot.git
+      cd internet-speed-twitterbot
 
-2. Install the required packages:
 
-    pip install -r requirements.txt
+- Install the required packages:
 
-3. Configure Twitter API credentials:
+
+      pip install -r requirements.txt
+
+
+- Configure Twitter API credentials:
 
     a. Set up a Twitter Developer account and create an app to get API keys.
     b. Add your API keys to the .env file (which I've not included) in the project directory. The format is:
