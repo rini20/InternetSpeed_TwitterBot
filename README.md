@@ -16,6 +16,7 @@ Requirements:
 Installation:
 
 1. Clone this repository:
+    
 
     git clone https://github.com/rini20/InternetSpeed_TwitterBot.git
     cd internet-speed-twitterbot
@@ -38,7 +39,7 @@ Installation:
 
 Run the script with:
  
-python main.py
+    python main.py
 
 The bot will:
 
