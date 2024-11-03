@@ -13,9 +13,10 @@ Requirements:
 - Tweepy: For interacting with Twitter’s API.
 - Google Chrome and ChromeDriver (Make sure they are compatible).
 
-Installation
+Installation:
 
 1. Clone this repository:
+
     git clone https://github.com/rini20/InternetSpeed_TwitterBot.git
     cd internet-speed-twitterbot
 
@@ -27,17 +28,20 @@ Installation
 
     a. Set up a Twitter Developer account and create an app to get API keys.
     b. Add your API keys to the .env file (which I've not included) in the project directory. The format is:
-        API_KEY = your api_key""
+
+        API_KEY = "your api_key"
         API_SECRET_KEY = "your api_secret_key"
         ACCESS_TOKEN = "your_access_token"
         ACCESS_TOKEN_SECRET = "your access_token_secret"
+
     c. Set your ISP's Twitter handle in the message and the promised download/upload speed in the script.
 
 Run the script with:
- python main.py
+ 
+python main.py
 
 The bot will:
 
-Perform an internet speed test using Selenium.
-Compare the results with your specified threshold.
-If the speed is below the threshold, post a tweet tagging your ISP
+- Perform an internet speed test using Selenium.
+- Compare the results with your specified threshold.
+- If the speed is below the threshold, post a tweet tagging your ISP
